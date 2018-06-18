@@ -1,2 +1,0 @@
-# goalsandbox
-Created with CodeSandbox
