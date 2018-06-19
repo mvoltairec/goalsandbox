@@ -1,13 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Dropdown from './Dropdown';
+import AddDailyGoal from './AddDailyGoal';
+
 import "./styles.css";
+
 
 function App() {
   return (
     <div className="App">
-      <p>select a long term goal</p>
-      <Dropdown />
+      <AddDailyGoal />
     </div>
   );
 }
