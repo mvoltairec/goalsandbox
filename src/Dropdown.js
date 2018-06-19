@@ -12,6 +12,7 @@ class Dropdown extends Component {
   render() {
     return (
       <div className="dropdown">
+      <p>select a long term goal</p>
         <select onChange={e => this.handleSelect(e)}>
           <option value="fitness">fitness</option>
           <option value="wellness">wellness</option>

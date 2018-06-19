@@ -2,3 +2,14 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+textarea {
+  margin: auto;
+  resize: none;
+  height: auto;
+  border-color: white white #59B875;
+}
+
+textarea:focus {
+  outline: none;
+}
